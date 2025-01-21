@@ -10,15 +10,8 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Say hello
-        run: |
-          echo "Hello World1"
-
-  date_and_directory_job:
-    runs-on: ubuntu-20.04
-    steps:
+        run: echo "Hello World1"
       - name: Print date
-        run: |
-          date
+        run: date
       - name: Print directory
-        run: |
-          ls -l
+        run: ls -l
